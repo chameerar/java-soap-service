@@ -13,7 +13,7 @@ public class EchoService {
     }
 
     public static void main(String[] args) {
-        Endpoint.publish("http://localhost:8080/echoservice", new EchoService());
+        Endpoint.publish("http://0.0.0.0:8080/echoservice", new EchoService());
         System.out.println("Service published at http://localhost:8080/echoservice");
     }
 }
