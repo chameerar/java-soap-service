@@ -8,7 +8,7 @@ mvn clean package
 
 ## How to run
 ```bash
-java -jar target/soap-service-0.0.1-SNAPSHOT.jar
+java -jar target/java-soap-service-1.0-SNAPSHOT.jar
 ```
 
 ## Testing
